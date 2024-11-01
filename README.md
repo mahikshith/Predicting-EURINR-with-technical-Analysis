@@ -24,7 +24,7 @@ Remember most of the technical Indicators are Lagging Indicators
 
 >### Approach :
 
-Import and pre-process the data
+Import the data from EUR/INR from Yahoo-finance,  pre-process the data
 
 Calculate Moving Averages - Buy and sell triggers
 
