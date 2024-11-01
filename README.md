@@ -47,6 +47,28 @@ Technical indicators + Funda mental Analysis combination should be considered fo
 
 ![image](https://github.com/user-attachments/assets/54a65e70-679c-4617-98c5-56f27eae8785)
 
+### Moving Average Analysis : 
+
+We took the closing price for calculating 20 MA & 50 MA 
+
+If the small MA [20 -yellow] crosses Big MA [50-red] in upward trend a buy signal has been triggered (shown with green marker) and vice versa for sell signal (red marker) 
+
+If 20 MA = 50 MA then neutral (No buy or sell has been triggered)
+
+All the Analysis is based on the closing price.
+
+![image](https://github.com/user-attachments/assets/145ca048-97f7-4109-9127-7200ce94bf80)
+
+### Bollinger bands : 
+
+When the closing price hits upper band (20 MA + 2 Std ) then a sell signal has been triggered where as the closing price is closer to lower band (20 MA – 2 Std) then a buy , if the market is sideways or fluctuating in the middle band then neutral. 
+
+The below Analysis for entire data , we can also the analysis for one day , one week after sep 30 in the table in the previous slide and graph for the same has been shown in the upcoming slides 
+
+![image](https://github.com/user-attachments/assets/23d0a06d-0ebd-45d2-99ff-6a68f91ded6d)
+
+
+
 
 
 
