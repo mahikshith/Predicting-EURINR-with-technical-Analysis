@@ -1,29 +1,3 @@
-"""Assumptions:Took 20 day MA as standard because the frequency of data is daily
-
-Moving Average period: 20 days and 50 days
-Bollinger Bands: 20-day period with 2 standard deviations
-CCI: 20-day period with standard thresholds of +100 and -100
-
->Moving Average:
-
-BUY when price is above 20 MA > 50 MA
-SELL when price is below 20 MA < 50 MA
-Else NEUTRAL
-
-
->Bollinger Bands:
-
-BUY when price touches lower band
-SELL when price touches upper band
-NEUTRAL when price is between bands
-
-
->CCI:
-
-BUY when CCI < -100 (oversold)
-SELL when CCI > 100 (overbought)
-NEUTRAL when CCI is between -100 and 100"""
-
 # Import libraries :
 
 import yfinance as yf
@@ -255,9 +229,5 @@ if __name__ == "__main__":
 # | Bollinger Bands|     NEUTRAL      |     NEUTRAL      |
 # | CCI            |     NEUTRAL      |       BUY        |
 
-# A detailed explanation of the code can be found here: 
 
-# https://colab.research.google.com/drive/19bvwG_BKOStd9V4xM9b-uBPoK2I2Lod6?usp=sharing
-
-
-# By Mahikshith - [https://github.com/mahikshith]
+# By Mahikshith
